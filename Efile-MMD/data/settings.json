@@ -1,0 +1,41 @@
+{
+  "database": {
+    "backend": "postgres",
+    "host": "192.168.1.14",
+    "port": 5432,
+    "name": "efile_mmd",
+    "user": "efile_mmd",
+    "sslmode": "prefer"
+  },
+  "files": {
+    "backend": "local"
+  },
+  "masters": {
+    "unit": [
+      "Hospital",
+      "university",
+      "RDI",
+      "CRI",
+      "Hsst",
+      "HSN"
+    ],
+    "category": [
+      "C5-receipt&Qc"
+    ],
+    "subcategory": [
+      "Goods Receipt"
+    ],
+    "documentType": [
+      "Goods Receipt Note"
+    ],
+    "itemCategory": [
+      "Consumable"
+    ],
+    "department": [
+      "Cardiology"
+    ],
+    "financialYear": [
+      "2026-2027"
+    ]
+  }
+}
